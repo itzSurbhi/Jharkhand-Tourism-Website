@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jharkhand Tourism - Discover the Land of Forests</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h2>Jharkhand Tourism</h2>
+                </div>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="#home" class="nav-link">Home</a></li>
+                        <li><a href="#places" class="nav-link">Tourist Places</a></li>
+                        <li><a href="#culture" class="nav-link">Culture & Heritage</a></li>
+                        <li><a href="#map" class="nav-link">Map</a></li>
+                        <li><a href="#handicrafts" class="nav-link">Handicrafts</a></li>
+                        <li><a href="#festivals" class="nav-link">Festivals</a></li>
+                        <li><a href="#plan-visit" class="nav-link">Plan Visit</a></li>
+                    </ul>
+                </nav>
+                <button class="mobile-menu-btn" aria-label="Toggle menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background"></div>
+        <div class="hero-content">
+            <div class="container">
+                <h1 class="hero-title" id="hero-title">Discover Jharkhand - The Land of Forests and Tribal Heritage</h1>
+                <p class="hero-subtitle animate-fade-in" data-delay="0.5">Explore pristine waterfalls, ancient tribal culture, and natural wonders in India's mineral-rich heartland</p>
+                <button class="btn btn--primary hero-cta animate-fade-in" data-delay="0.8">Explore Jharkhand</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tourist Places Section -->
+    <section id="places" class="section tourist-places parallax-section">
+        <div class="parallax-overlay"></div>
+        <div class="container">
+            <div class="section-header animate-fade-in">
+                <h2 class="section-title">Tourist Destinations</h2>
+                <p class="section-subtitle">Explore the breathtaking landscapes and cultural treasures of Jharkhand</p>
+            </div>
+            <div class="places-grid">
+                <div class="place-card animate-slide-up" data-place="ranchi" data-delay="0.1">
+                    <div class="place-image">
+                         <img src="images/dassam falls.webp" alt="Ranchi - Dassam Falls">;
+                    </div>
+                    <div class="place-content">
+                        <h3 class="place-title">Ranchi</h3>
+                        <p class="place-description">Capital city known for waterfalls, hill stations, and Birsa Zoological Park</p>
+                        <div class="place-highlights">
+                            <span class="highlight-tag">Dassam Falls</span>
+                            <span class="highlight-tag">Hundru Falls</span>
+                            <span class="highlight-tag">Pahari Mandir</span>
+                        </div>
+                        <div class="place-coordinates">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>23.34°N, 85.30°E</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="place-card animate-slide-up" data-place="deoghar" data-delay="0.2">
+                    <div class="place-image">
+                        <img src="https://pplx-res.cloudinary.com/image/upload/v1755523648/pplx_project_search_images/f7b0b1bb1f8285f493d6762e6a24996e546f48b9.png" alt="Deoghar - Baidyanath Temple">
+                    </div>
+                    <div class="place-content">
+                        <h3 class="place-title">Deoghar</h3>
+                        <p class="place-description">Sacred pilgrimage site housing the famous Baidyanath Jyotirlinga temple</p>
+                        <div class="place-highlights">
+                            <span class="highlight-tag">Baidyanath Temple</span>
+                            <span class="highlight-tag">Nandan Pahar</span>
+                            <span class="highlight-tag">Trikut Hill</span>
+                        </div>
+                        <div class="place-coordinates">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>24.48°N, 86.70°E</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="place-card animate-slide-up" data-place="jamshedpur" data-delay="0.3">
+                    <div class="place-image">
+                        <img src="images/jamshedpur.webp" alt="Jamshedpur - Jubilee Park">
+                    </div>
+                    <div class="place-content">
+                        <h3 class="place-title">Jamshedpur</h3>
+                        <p class="place-description">Planned industrial city with beautiful parks and lakes</p>
+                        <div class="place-highlights">
+                            <span class="highlight-tag">Jubilee Park</span>
+                            <span class="highlight-tag">Dimna Lake</span>
+                            <span class="highlight-tag">Dalma Wildlife</span>
+                        </div>
+                        <div class="place-coordinates">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>22.80°N, 86.18°E</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="place-card animate-slide-up" data-place="netarhat" data-delay="0.4">
+                    <div class="place-image">
+                        <img src="images/netarhat.webp" alt="Netarhat - Sunrise Point">
+                    </div>
+                    <div class="place-content">
+                        <h3 class="place-title">Netarhat</h3>
+                        <p class="place-description">Queen of Chotanagpur - scenic hill station with sunrise and sunset points</p>
+                        <div class="place-highlights">
+                            <span class="highlight-tag">Sunrise Point</span>
+                            <span class="highlight-tag">Sunset Point</span>
+                            <span class="highlight-tag">Hill Station</span>
+                        </div>
+                        <div class="place-coordinates">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>23.47°N, 84.26°E</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="place-card animate-slide-up" data-place="hazaribagh" data-delay="0.5">
+                    <div class="place-image">
+                        <img src="images/hazaribagh.webp" alt="Hazaribagh - National Park">
+                    </div>
+                    <div class="place-content">
+                        <h3 class="place-title">Hazaribagh</h3>
+                        <p class="place-description">Forest town with national park and natural beauty</p>
+                        <div class="place-highlights">
+                            <span class="highlight-tag">National Park</span>
+                            <span class="highlight-tag">Canary Hill</span>
+                            <span class="highlight-tag">Hot Spring</span>
+                        </div>
+                        <div class="place-coordinates">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>23.98°N, 85.36°E</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="place-card animate-slide-up" data-place="betla" data-delay="0.6">
+                    <div class="place-image">
+                       <img src="images/betla.webp" alt="Betla National Park - Wildlife Sanctuary">
+                    </div>
+                    <div class="place-content">
+                        <h3 class="place-title">Betla National Park</h3>
+                        <p class="place-description">Premier wildlife sanctuary with tigers, elephants and ancient forts</p>
+                        <div class="place-highlights">
+                            <span class="highlight-tag">Tiger Reserve</span>
+                            <span class="highlight-tag">Wildlife Safari</span>
+                            <span class="highlight-tag">Ancient Forts</span>
+                        </div>
+                        <div class="place-coordinates">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>23.90°N, 84.19°E</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Culture & Heritage Section -->
+    <section id="culture" class="section culture-heritage parallax-section">
+        <div class="parallax-overlay"></div>
+        <div class="container">
+            <div class="section-header animate-fade-in">
+                <h2 class="section-title">Culture & Heritage</h2>
+                <p class="section-subtitle">Experience the rich tribal traditions and cultural heritage of Jharkhand</p>
+            </div>
+            <div class="culture-content">
+                <div class="culture-image animate-fade-in-left">
+                    <img src="https://pplx-res.cloudinary.com/image/upload/v1755338795/pplx_project_search_images/cd5e0635a15ec0b5fcc9f34cf9734e2d5dc00d9c.png" alt="Sarhul Festival Celebration">
+                </div>
+                <div class="culture-info animate-fade-in-right">
+                    <h3>Tribal Traditions</h3>
+                    <p>Jharkhand is home to over 30 tribal communities, each with unique customs, languages, and traditions. The state's cultural identity is deeply rooted in its tribal heritage, with festivals like Sarhul and Karma celebrating the harmony between humans and nature.</p>
+                    
+                    <div class="traditions-grid">
+                        <div class="tradition-item animate-rotate-in" data-delay="0.1">
+                            <div class="tradition-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <h4>32 Tribal Communities</h4>
+                            <p>Rich diversity of indigenous cultures</p>
+                        </div>
+                        <div class="tradition-item animate-rotate-in" data-delay="0.2">
+                            <div class="tradition-icon">
+                                <i class="fas fa-music"></i>
+                            </div>
+                            <h4>Traditional Music</h4>
+                            <p>Ancient instruments and folk songs</p>
+                        </div>
+                        <div class="tradition-item animate-rotate-in" data-delay="0.3">
+                            <div class="tradition-icon">
+                                <i class="fas fa-palette"></i>
+                            </div>
+                            <h4>Folk Arts</h4>
+                            <p>Kohvar and Sohrai paintings</p>
+                        </div>
+                        <div class="tradition-item animate-rotate-in" data-delay="0.4">
+                            <div class="tradition-icon">
+                                <i class="fas fa-leaf"></i>
+                            </div>
+                            <h4>Nature Worship</h4>
+                            <p>Deep connection with forests and trees</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Handicrafts Section -->
+    <section id="handicrafts" class="section handicrafts parallax-section">
+        <div class="parallax-overlay"></div>
+        <div class="container">
+            <div class="section-header animate-fade-in">
+                <h2 class="section-title">Traditional Handicrafts</h2>
+                <p class="section-subtitle">Discover the authentic tribal crafts and artisan traditions of Jharkhand</p>
+            </div>
+            <div class="handicrafts-grid">
+                <div class="handicraft-card animate-float-in" data-delay="0.1">
+                    <div class="handicraft-icon">
+                        <i class="fas fa-hammer"></i>
+                    </div>
+                    <h3>Dokra Art</h3>
+                    <p>Ancient bell metal craft using lost-wax technique, practiced for over 4000 years. Creates beautiful tribal figurines and decorative items.</p>
+                    <div class="craft-materials">
+                        <span class="material-tag">Copper</span>
+                        <span class="material-tag">Bronze</span>
+                        <span class="material-tag">Zinc</span>
+                    </div>
+                </div>
+                <div class="handicraft-card animate-float-in" data-delay="0.2">
+                    <div class="handicraft-icon">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                    <h3>Bamboo Crafts</h3>
+                    <p>Sustainable bamboo products made by tribal communities using natural bamboo from local forests for eco-friendly living.</p>
+                    <div class="craft-materials">
+                        <span class="material-tag">Natural Bamboo</span>
+                        <span class="material-tag">Eco-friendly</span>
+                        <span class="material-tag">Handmade</span>
+                    </div>
+                </div>
+                <div class="handicraft-card animate-float-in" data-delay="0.3">
+                    <div class="handicraft-icon">
+                        <i class="fas fa-gem"></i>
+                    </div>
+                    <h3>Tribal Jewelry</h3>
+                    <p>Traditional ornaments with cultural significance including Hansuli necklaces, indicating social status and tribal identity.</p>
+                    <div class="craft-materials">
+                        <span class="material-tag">Silver</span>
+                        <span class="material-tag">Brass</span>
+                        <span class="material-tag">Beads</span>
+                    </div>
+                </div>
+                <div class="handicraft-card animate-float-in" data-delay="0.4">
+                    <div class="handicraft-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>Kohvar & Sohrai</h3>
+                    <p>Traditional wall paintings by tribal women using natural pigments, celebrating marriage, fertility, and harvest seasons.</p>
+                    <div class="craft-materials">
+                        <span class="material-tag">Natural Pigments</span>
+                        <span class="material-tag">Red Ochre</span>
+                        <span class="material-tag">Kaolin White</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Political Map Section -->
+     <section id="map" class="section political-map-section parallax-section">
+        <div class="parallax-overlay"></div>
+        <div class="container">
+            <div class="section-header animate-fade-in">
+                <h2 class="section-title">Jharkhand State Map - 24 Districts</h2>
+                <p class="section-subtitle">Explore the administrative divisions of Jharkhand and plan your itinerary</p>
+            </div>
+            
+            <div class="map-content">
+                <div class="political-map animate-zoom-in">
+                    <svg viewBox="0 0 1000 700" class="jharkhand-political-map">
+                        <!-- Jharkhand state boundary -->
+                        <path d="M 100 180 Q 150 120 250 140 L 350 130 Q 450 125 550 140 L 650 155 Q 750 170 820 200 Q 850 250 860 320 L 870 420 Q 865 480 850 530 L 820 580 Q 750 600 650 595 L 550 590 Q 450 585 350 580 L 250 575 Q 150 570 120 530 L 100 480 Q 95 430 95 380 L 100 280 Q 105 230 100 180 Z" 
+                              fill="rgba(33, 128, 141, 0.1)" 
+                              stroke="var(--color-primary)" 
+                              stroke-width="3"/>
+                        
+                        <!-- Neighboring states labels -->
+                        <text x="200" y="100" fill="var(--color-text-secondary)" font-size="14" font-weight="500">BIHAR</text>
+                        <text x="700" y="120" fill="var(--color-text-secondary)" font-size="14" font-weight="500">WEST BENGAL</text>
+                        <text x="750" y="450" fill="var(--color-text-secondary)" font-size="14" font-weight="500">ODISHA</text>
+                        <text x="300" y="640" fill="var(--color-text-secondary)" font-size="14" font-weight="500">CHHATTISGARH</text>
+                        <text x="50" y="200" fill="var(--color-text-secondary)" font-size="14" font-weight="500">UTTAR PRADESH</text>
+                        
+                        <!-- Major districts -->
+                        <!-- Ranchi (Capital) -->
+                        <circle cx="400" cy="350" r="8" fill="var(--color-error)" stroke="white" stroke-width="2"/>
+                        <text x="400" y="340" fill="var(--color-white)" font-size="12" font-weight="600" text-anchor="middle">RANCHI</text>
+                        <text x="400" y="375" fill="var(--color-white)" font-size="10" text-anchor="middle">(Capital)</text>
+                        
+                        <!-- Major cities -->
+                        <circle cx="550" cy="450" r="6" fill="var(--color-primary)" stroke="white" stroke-width="2"/>
+                        <text x="550" y="440" fill="var(--color-white)" font-size="11" font-weight="500" text-anchor="middle">Jamshedpur</text>
+                        
+                        <circle cx="600" cy="200" r="6" fill="var(--color-primary)" stroke="white" stroke-width="2"/>
+                        <text x="600" y="190" fill="var(--color-white)" font-size="11" font-weight="500" text-anchor="middle">Deoghar</text>
+                        
+                        <circle cx="450" cy="250" r="6" fill="var(--color-primary)" stroke="white" stroke-width="2"/>
+                        <text x="450" y="240" fill="var(--color-white)" font-size="11" font-weight="500" text-anchor="middle">Hazaribagh</text>
+                        
+                        <circle cx="300" cy="300" r="6" fill="var(--color-primary)" stroke="white" stroke-width="2"/>
+                        <text x="300" y="290" fill="var(--color-white)" font-size="11" font-weight="500" text-anchor="middle">Netarhat</text>
+                        
+                        <circle cx="350" cy="400" r="6" fill="var(--color-primary)" stroke="white" stroke-width="2"/>
+                        <text x="350" y="390" fill="var(--color-white)" font-size="11" font-weight="500" text-anchor="middle">Betla NP</text>
+                        
+                        <circle cx="650" cy="300" r="6" fill="var(--color-primary)" stroke="white" stroke-width="2"/>
+                        <text x="650" y="290" fill="var(--color-white)" font-size="11" font-weight="500" text-anchor="middle">Dhanbad</text>
+                        
+                        <circle cx="250" cy="250" r="6" fill="var(--color-primary)" stroke="white" stroke-width="2"/>
+                        <text x="250" y="240" fill="var(--color-white)" font-size="11" font-weight="500" text-anchor="middle">Garhwa</text>
+                        
+                        <circle cx="500" cy="200" r="6" fill="var(--color-primary)" stroke="white" stroke-width="2"/>
+                        <text x="500" y="190" fill="var(--color-white)" font-size="11" font-weight="500" text-anchor="middle">Giridih</text>
+                        
+                        <!-- District boundaries (simplified) -->
+                        <path d="M 200 180 L 400 200 L 450 250 L 400 300 L 200 280 Z" 
+                              fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="1" stroke-dasharray="3,3"/>
+                        <path d="M 450 150 L 650 160 L 700 220 L 600 250 L 450 200 Z" 
+                              fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="1" stroke-dasharray="3,3"/>
+                        <path d="M 300 350 L 500 360 L 550 420 L 400 450 L 300 430 Z" 
+                              fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="1" stroke-dasharray="3,3"/>
+                    </svg>
+                </div>
+                
+                <div class="map-facts animate-fade-in" data-delay="0.3">
+                    <h3>Key Facts</h3>
+                    <div class="fact-item">
+                        <i class="fas fa-expand-arrows-alt"></i>
+                        <div>
+                            <strong>Area:</strong> 79,714 sq km
+                        </div>
+                    </div>
+                    <div class="fact-item">
+                        <i class="fas fa-map"></i>
+                        <div>
+                            <strong>Districts:</strong> 24
+                        </div>
+                    </div>
+                    <div class="fact-item">
+                        <i class="fas fa-city"></i>
+                        <div>
+                            <strong>Capital:</strong> Ranchi
+                        </div>
+                    </div>
+                    <div class="fact-item">
+                        <i class="fas fa-calendar"></i>
+                        <div>
+                            <strong>Statehood:</strong> November 15, 2000
+                        </div>
+                    </div>
+                    <div class="fact-item">
+                        <i class="fas fa-users"></i>
+                        <div>
+                            <strong>Population:</strong> 33 million (approx.)
+                        </div>
+                    </div>
+                    <div class="fact-item">
+                        <i class="fas fa-graduation-cap"></i>
+                        <div>
+                            <strong>Literacy Rate:</strong> 67.63%
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Festivals Section -->
+    <section id="festivals" class="section festivals parallax-section">
+        <div class="parallax-overlay"></div>
+        <div class="container">
+            <div class="section-header animate-fade-in">
+                <h2 class="section-title">Festivals & Traditions</h2>
+                <p class="section-subtitle">Experience the vibrant festivals and musical traditions of Jharkhand's tribal communities</p>
+            </div>
+            <div class="festivals-content">
+                <div class="festivals-grid">
+                    <div class="festival-card animate-card-flip" data-delay="0.1">
+                        <div class="festival-image">
+                            <img src="https://pplx-res.cloudinary.com/image/upload/v1755230913/pplx_project_search_images/38752ada616f08f0113c3f9b96142280186aee49.png" alt="Sarhul Festival">
+                        </div>
+                        <div class="festival-content">
+                            <h3>Sarhul</h3>
+                            <p class="festival-description">Spring festival celebrating nature, worship of sal tree flowers. Marks arrival of spring and brotherhood with nature.</p>
+                            <div class="festival-season">
+                                <i class="fas fa-calendar"></i>
+                                <span>Spring Season (March-April)</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="festival-card animate-card-flip" data-delay="0.3">
+                        <div class="festival-image">
+                            <img src="images/karma.webp" alt="Karma Festival">
+                        </div>
+                        
+                       
+                        <div class="festival-content">
+                            <h3>Karma</h3>
+                            <p class="festival-description">Harvest festival worshipping the Karma tree for prosperity. Celebrates community bonding and agricultural traditions.</p>
+                            <div class="festival-season">
+                                <i class="fas fa-calendar"></i>
+                                <span>Harvest Season (August-September)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="festival-card animate-card-flip" data-delay="0.5">
+                        <div class="festival-image">
+                            <img src="images/chhath puja.webp" alt="Chhath Puja">
+                        </div>
+                        <div class="festival-content">
+                            <h3>Chhath Puja</h3>
+                            <p class="festival-description">Sun worship festival with fasting and river rituals. Celebrates devotion to Sun God and family unity.</p>
+                            <div class="festival-season">
+                                <i class="fas fa-calendar"></i>
+                                <span>Winter Season (October-November)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="music-traditions animate-fade-in" data-delay="0.7">
+                    <h3>Traditional Music & Dance</h3>
+                    <div class="music-grid">
+                        <div class="music-item animate-rotate-in" data-delay="0.8">
+                            <div class="music-icon">
+                                <i class="fas fa-drum"></i>
+                            </div>
+                            <h4>Chhau Dance</h4>
+                            <p>Semi-classical dance with tribal and folk traditions using masks for storytelling</p>
+                        </div>
+                        <div class="music-item animate-rotate-in" data-delay="0.9">
+                            <div class="music-icon">
+                                <i class="fas fa-music"></i>
+                            </div>
+                            <h4>Jhumair</h4>
+                            <p>Popular folk dance performed during harvest and festivals for community celebration</p>
+                        </div>
+                        <div class="music-item animate-rotate-in" data-delay="1.0">
+                            <div class="music-icon">
+                                <i class="fas fa-guitar"></i>
+                            </div>
+                            <h4>Banam</h4>
+                            <p>Single-string violin made from coconut shell and bamboo for solo performances</p>
+                        </div>
+                        <div class="music-item animate-rotate-in" data-delay="1.1">
+                            <div class="music-icon">
+                                <i class="fas fa-drum"></i>
+                            </div>
+                            <h4>Mandar</h4>
+                            <p>Clay drum covered with goat skin, played with hands during folk songs and dances</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Plan Your Visit Section -->
+    <section id="plan-visit" class="section plan-visit parallax-section">
+        <div class="parallax-overlay"></div>
+        <div class="container">
+            <div class="section-header animate-fade-in">
+                <h2 class="section-title">Plan Your Visit to Jharkhand</h2>
+                <p class="section-subtitle">Essential information for an unforgettable journey to the Land of Forests</p>
+            </div>
+            
+            <div class="visit-content">
+                <div class="visit-grid">
+                    <!-- Best Time to Visit -->
+                    <div class="visit-card animate-slide-up" data-delay="0.1">
+                        <div class="visit-icon">
+                            <i class="fas fa-calendar-alt"></i>
+                        </div>
+                        <h3>Best Time to Visit</h3>
+                        <div class="visit-highlight">
+                            <strong>October to March</strong>
+                        </div>
+                        <p>Winter season offers pleasant weather ideal for sightseeing and outdoor activities. Temperature ranges from 15°C to 25°C.</p>
+                        <div class="visit-note">
+                            <i class="fas fa-exclamation-triangle"></i>
+                            <span>Avoid monsoon season (July-September) due to heavy rainfall</span>
+                        </div>
+                    </div>
+
+                    <!-- How to Reach -->
+                    <div class="visit-card animate-slide-up" data-delay="0.2">
+                        <div class="visit-icon">
+                            <i class="fas fa-plane"></i>
+                        </div>
+                        <h3>How to Reach Jharkhand</h3>
+                        <div class="travel-options">
+                            <div class="travel-option">
+                                <strong>By Air:</strong>
+                                <ul>
+                                    <li>Birsa Munda Airport, Ranchi</li>
+                                    <li>Sonari Airport, Jamshedpur</li>
+                                    <li>Connected to Delhi, Mumbai, Kolkata</li>
+                                </ul>
+                            </div>
+                            <div class="travel-option">
+                                <strong>By Rail:</strong>
+                                <ul>
+                                    <li>Major stations: Ranchi, Jamshedpur, Dhanbad</li>
+                                    <li>Direct trains from major cities</li>
+                                </ul>
+                            </div>
+                            <div class="travel-option">
+                                <strong>By Road:</strong>
+                                <ul>
+                                    <li>NH-33 connects Ranchi to Kolkata</li>
+                                    <li>State and private buses available</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Accommodation -->
+                    <div class="visit-card animate-slide-up" data-delay="0.3">
+                        <div class="visit-icon">
+                            <i class="fas fa-bed"></i>
+                        </div>
+                        <h3>Accommodation Options</h3>
+                        <div class="accommodation-types">
+                            <div class="accommodation-type">
+                                <strong>Luxury Hotels & Resorts:</strong>
+                                <ul>
+                                    <li>Hotel Capitol Hill (Ranchi)</li>
+                                    <li>The Alcor Hotel (Dhanbad)</li>
+                                    <li>Safari Resort (Betla National Park)</li>
+                                </ul>
+                            </div>
+                            <div class="accommodation-type">
+                                <strong>Budget Options:</strong>
+                                <ul>
+                                    <li>JTDC Tourist Lodges</li>
+                                    <li>Railway Retiring Rooms</li>
+                                    <li>Local guest houses</li>
+                                </ul>
+                            </div>
+                            <div class="accommodation-type">
+                                <strong>Unique Stays:</strong>
+                                <ul>
+                                    <li>Forest Rest Houses</li>
+                                    <li>Tribal Homestays</li>
+                                    <li>Eco-lodges in national parks</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Travel Tips -->
+                    <div class="visit-card animate-slide-up" data-delay="0.4">
+                        <div class="visit-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <h3>Travel Tips & Guidelines</h3>
+                        <div class="travel-tips">
+                            <div class="tip-item">
+                                <i class="fas fa-id-card"></i>
+                                <span>Carry valid photo ID for hotel check-ins and travel</span>
+                            </div>
+                            <div class="tip-item">
+                                <i class="fas fa-tree"></i>
+                                <span>Book forest permits in advance for national parks</span>
+                            </div>
+                            <div class="tip-item">
+                                <i class="fas fa-users"></i>
+                                <span>Respect tribal customs and photography restrictions</span>
+                            </div>
+                            <div class="tip-item">
+                                <i class="fas fa-money-bill"></i>
+                                <span>Carry sufficient cash as ATMs may be limited in rural areas</span>
+                            </div>
+                            <div class="tip-item">
+                                <i class="fas fa-hiking"></i>
+                                <span>Pack comfortable walking shoes for trekking and sightseeing</span>
+                            </div>
+                            <div class="tip-item">
+                                <i class="fas fa-language"></i>
+                                <span>Learn basic Hindi or local phrases for better communication</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Essential Information -->
+                    <div class="visit-card animate-slide-up" data-delay="0.5">
+                        <div class="visit-icon">
+                            <i class="fas fa-info-circle"></i>
+                        </div>
+                        <h3>Essential Information</h3>
+                        <div class="essential-info">
+                            <div class="info-section">
+                                <strong>Languages:</strong>
+                                <div class="language-tags">
+                                    <span class="lang-tag">Hindi (Official)</span>
+                                    <span class="lang-tag">Nagpuri</span>
+                                    <span class="lang-tag">Khortha</span>
+                                    <span class="lang-tag">Santali</span>
+                                </div>
+                            </div>
+                            <div class="info-section">
+                                <strong>Currency:</strong> Indian Rupee (INR)
+                            </div>
+                            <div class="info-section">
+                                <strong>Time Zone:</strong> Indian Standard Time (IST, UTC+5:30)
+                            </div>
+                            <div class="info-section">
+                                <strong>Emergency Contacts:</strong>
+                                <div class="emergency-contacts">
+                                    <div class="emergency-item">
+                                        <i class="fas fa-shield-alt"></i>
+                                        <span>Police: 100</span>
+                                    </div>
+                                    <div class="emergency-item">
+                                        <i class="fas fa-fire"></i>
+                                        <span>Fire: 101</span>
+                                    </div>
+                                    <div class="emergency-item">
+                                        <i class="fas fa-ambulance"></i>
+                                        <span>Ambulance: 108</span>
+                                    </div>
+                                    <div class="emergency-item">
+                                        <i class="fas fa-phone"></i>
+                                        <span>Tourist Helpline: 1363</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Information -->
+                    <div class="visit-card animate-slide-up" data-delay="0.6">
+                        <div class="visit-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <h3>Important Numbers</h3>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <i class="fas fa-map-marked-alt"></i>
+                                <div>
+                                    <strong>Jharkhand Tourism:</strong>
+                                    <span>+91-651-2446-819</span>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-train"></i>
+                                <div>
+                                    <strong>Railway Enquiry:</strong>
+                                    <span>139</span>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-plane"></i>
+                                <div>
+                                    <strong>Airport Enquiry:</strong>
+                                    <span>+91-651-289-0078</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer parallax-section">
+        <div class="parallax-overlay"></div>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section animate-slide-up" data-delay="0.1">
+                    <h3>Jharkhand Tourism</h3>
+                    <p>Discover the natural beauty and rich cultural heritage of the Land of Forests.</p>
+                </div>
+                <div class="footer-section animate-slide-up" data-delay="0.2">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#places">Tourist Places</a></li>
+                        <li><a href="#culture">Culture</a></li>
+                        <li><a href="#handicrafts">Handicrafts</a></li>
+                        <li><a href="#festivals">Festivals</a></li>
+                        <li><a href="#plan-visit">Plan Your Visit</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section animate-slide-up" data-delay="0.3">
+                    <h4>Contact Info</h4>
+                    <p>Jharkhand Tourism Development Corporation</p>
+                    <p>Ranchi, Jharkhand, India</p>
+                    <p>Phone: +91-651-2446-819</p>
+                </div>
+            </div>
+            <div class="footer-bottom animate-fade-in" data-delay="0.4">
+                <p>&copy; 2025 Jharkhand Tourism. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
