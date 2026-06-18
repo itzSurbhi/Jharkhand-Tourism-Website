@@ -17,20 +17,6 @@ Welcome to the official frontend project for the **Jharkhand Tourism Website**! 
 
 ---
 
-## 🛠️ Tech Stack
-
-| Technology | Description            |
-|------------|------------------------|
-| HTML5      | Structure of the website |
-| CSS3       | Styling and layout     |
-| JavaScript | Interactivity (e.g., menu, gallery slider) |
-| [Optional] Bootstrap | For responsive design components (if used) |
-| [Optional] AOS / GSAP | For scroll animations (if used) |
-
----
-
----
-
 ## 🚀 Getting Started
 
 To run the project locally:
